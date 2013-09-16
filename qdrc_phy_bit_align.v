@@ -104,7 +104,7 @@ generate if (BYPASS == 1) begin :bypass_bit_align
 /************** GENERATE ELSE INCLUDE PHY ********************/
 end else begin                  :include_bit_align
 /******************** INCLUDE PHY ****************************/
-
+// learn about generate command
   reg train_start;
   wire train_done;
   wire train_fail;
